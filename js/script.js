@@ -27,7 +27,7 @@ const defaultContent = inner.innerHTML;
 
 const contentMap = {
   'about-btn': `
-    <p>i only accept commissions starting from 25$ and above. i prefer working alone but i have no issues working with others (coding wise). i don't have fixed prices, depending on the difficulty of the task we can negotiate the price. i prefer paypal, but i also accept robux (tax covered)</p>
+    <p>i only accept commissions starting from 25$ and above. i prefer working alone but i have no issues working with others (coding wise). i don't have fixed prices, depending on the difficulty of the task we can negotiate the price. i prefer paypal, but i also accept robux</p>
   `,
   'contact-btn': `
     <p>you're free to message me on discord @mauvehydro</a></p>
@@ -55,4 +55,5 @@ navBtns.forEach(btn => {
     }
   });
 });
+
 
