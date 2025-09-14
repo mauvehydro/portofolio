@@ -121,3 +121,38 @@ body {
 
   text-decoration-thickness: 1px;
 }
+
+.inner-container a {
+  color: #8e44ad;
+  text-decoration: none;
+  display: inline-block;
+  transition: color 0.2s ease;
+}
+
+.inner-container a:hover:not(:active) {
+  animation: shake 0.6s ease-in-out infinite;
+}
+
+.inner-container a:active {
+  animation: jump 0.3s ease-out;
+}
+
+@keyframes shake {
+  0%   { transform: translate(0, 0); }
+  10%  { transform: translate(-2px, 1px); }
+  20%  { transform: translate(2px, -1px); }
+  30%  { transform: translate(-2px, -2px); }
+  40%  { transform: translate(2px, 2px); }
+  50%  { transform: translate(-1px, 1px); }
+  60%  { transform: translate(1px, -1px); }
+  70%  { transform: translate(-1px, 2px); }
+  80%  { transform: translate(2px, -2px); }
+  90%  { transform: translate(-2px, 1px); }
+  100% { transform: translate(0, 0); }
+}
+
+@keyframes jump {
+  0%   { transform: translateY(0); }
+  30%  { transform: translateY(-6px); }
+  100% { transform: translateY(0); }
+}
