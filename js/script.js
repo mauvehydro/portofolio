@@ -27,7 +27,7 @@ const defaultContent = inner.innerHTML;
 
 const contentMap = {
   'about-btn': `
-    <p>i only accept commissions starting from 25$ and above. i prefer working alone but i have no issues working with others (coding wise). i don't have fixed prices, depending on the difficulty of the task we can negotiate the price. i prefer paypal, but i also accept robux</p>
+    <p>i only accept commissions starting from 25$ and above. i prefer working alone but i have no issues working with others (coding wise). i don't have fixed prices, depending on the difficulty of the task we can negotiate the price. i prefer paypal, but i also accept robux. my timezone is GMT+3, i spend about 5 hours a day in roblox studio on weekdays, and about 10 on weekends</p>
   `,
   'contact-btn': `
     <p>you're free to message me on discord @mauvehydro</a></p>
@@ -37,7 +37,7 @@ const contentMap = {
     i'm experienced in both modular and oop frameworks and i have a weird obsession of writing clean and optimized code. i'm taking projects seriously and i dedicate myself to them as if they were mine</p>
   `,
   'projects-btn': `
-    <p>optimized modular (easy to add new buttons/droppers/upgraders/etc) and oop <a href="https://www.roblox.com/games/102208586504366/tycoon" target="_blank">tycoon</a> with data saving (it's also my first commission)</p>
+    <p>multithreaded oop <a href="https://www.roblox.com/games/102208586504366/tycoon" target="_blank">tycoon</a> with data saving; advanced, optimized <a href="https://www.roblox.com/games/121474156185262/tower-defense" target="_blank">tower defense</a> with client prediction</p>
   `
 };
 
@@ -55,5 +55,3 @@ navBtns.forEach(btn => {
     }
   });
 });
-
-
