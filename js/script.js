@@ -37,7 +37,7 @@ const contentMap = {
     i'm experienced in both modular and oop frameworks and i have a weird obsession of writing clean and optimized code. i'm taking projects seriously and i dedicate myself to them as if they were mine</p>
   `,
   'projects-btn': `
-    <p>multithreaded oop <a href="https://www.roblox.com/games/102208586504366/tycoon" target="_blank">tycoon</a> with data saving; advanced, optimized <a href="https://www.roblox.com/games/121474156185262/tower-defense" target="_blank">tower defense</a> with client prediction</p>
+    <p>multithreaded oop <a href="https://www.roblox.com/games/102208586504366/tycoon" target="_blank">tycoon</a> with data saving; advanced and optimized <a href="https://www.roblox.com/games/121474156185262/tower-defense" target="_blank">tower defense</a> with client sided prediction</p>
   `
 };
 
@@ -55,3 +55,4 @@ navBtns.forEach(btn => {
     }
   });
 });
+
