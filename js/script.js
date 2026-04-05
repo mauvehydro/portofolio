@@ -27,17 +27,17 @@ const defaultContent = inner.innerHTML;
 
 const contentMap = {
   'about-btn': `
-    <p>i only accept commissions starting from 25$ and above. i prefer working alone but i have no issues working with others (coding wise). i don't have fixed prices, depending on the difficulty of the task we can negotiate the price. i prefer paypal, but i also accept robux. my timezone is GMT+3, i spend about 5 hours a day in roblox studio on weekdays, and about 10 on weekends</p>
+    <p>i only accept commissions starting from 25$ and above. i prefer working alone but i have no issues working with others (coding wise). i don't have fixed prices, depending on the difficulty of the task we can negotiate the price. i prefer revolut, but i also accept paypal or robux. my timezone is GMT+2, i all day in roblox studio.</p>
   `,
   'contact-btn': `
     <p>you're free to message me on discord @mauvehydro</a></p>
   `,
   'info-btn': `
     <p>i've been on roblox studio since i created my first account back in 2016. altough i didn't understand much, i kept messing around. i started learning luau in 2020 and i began taking it seriously in 2022.
-    i'm experienced in both modular and oop frameworks and i have a weird obsession of writing clean and optimized code. i'm taking projects seriously and i dedicate myself to them as if they were mine</p>
+    i'm experienced in both modular and oop frameworks, type-checking, and i have a weird obsession of writing clean and optimized code. i'm taking projects seriously and i dedicate myself to them as if they were mine</p>
   `,
   'projects-btn': `
-    <p>multithreaded oop <a href="https://www.roblox.com/games/102208586504366/tycoon" target="_blank">tycoon</a> with data saving; advanced and optimized <a href="https://www.roblox.com/games/121474156185262/tower-defense" target="_blank">tower defense</a> with client sided prediction</p>
+    <p>multithreaded oop <a href="https://www.roblox.com/games/102208586504366/tycoon" target="_blank">tycoon</a> with data saving; advanced and optimized <a href="https://www.roblox.com/games/121474156185262/tower-defense" target="_blank">tower defense</a> with client sided prediction, <a href="https://pastebin.com/D8pAYbvk" target="_blank">code snippets</a> written by me</p>
   `
 };
 
